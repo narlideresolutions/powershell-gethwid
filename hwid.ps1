@@ -1,3 +1,4 @@
+cls
 function Get-HWID {
     try {
         # Sistem bilgilerini topla
@@ -25,6 +26,10 @@ function Get-HWID {
     }
 }
 
-# Örnek kullanım
+
 $hwid = Get-HWID
+Write-Output ""
+Write-Output "SEND YOUR HWID TO STAFF FOR LINK UR LICENSE"
+Write-Output ""
 Write-Output "HWID: $hwid"
+Write-Output ""
